@@ -1,0 +1,33 @@
+/*responsivo da barra de pesquisa*/
+@media screen and (max-width: 600px) {
+    .search-container {
+      float: none;
+      width:80%;
+      margin-top:20px;
+      margin-bottom:20px;
+    }
+    
+    .search-container input[type=text], .search-container button {
+      float: none;    
+      display: block;
+      margin-bottom:10px;    
+      border-radius:0;    
+      height:40px;    
+      font-size:18px;    
+      padding-left:20px;    
+      padding-right:20px;    
+      box-sizing:border-box; 
+     }
+     
+     .search-container input[type=text] {
+       border-bottom-left-radius:10px;     
+       border-top-left-radius:10px;     
+       border-right:none; 
+     }
+     
+     .search-container button {
+       border-bottom-right-radius:10px;     
+       border-top-right-radius:10px;     
+       border-left:none; 
+     }
+  }
